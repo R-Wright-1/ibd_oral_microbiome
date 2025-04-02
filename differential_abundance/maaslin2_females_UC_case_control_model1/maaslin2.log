@@ -1,0 +1,88 @@
+2024-04-09 12:31:19 INFO::Writing function arguments to log file
+2024-04-09 12:31:19 DEBUG::Function arguments
+2024-04-09 12:31:19 DEBUG::Output folder: /Users/robynwright/Dropbox/Langille_Lab_postdoc/AtPATH_IBD/analysis_2024/differential_abundance/maaslin2_females_UC_case_control_model1
+2024-04-09 12:31:19 DEBUG::Min Abundance: 0.000000
+2024-04-09 12:31:19 DEBUG::Min Prevalence: 0.100000
+2024-04-09 12:31:19 DEBUG::Normalization: TSS
+2024-04-09 12:31:19 DEBUG::Transform: AST
+2024-04-09 12:31:19 DEBUG::Analysis method: LM
+2024-04-09 12:31:19 DEBUG::Max significance: 0.250000
+2024-04-09 12:31:19 DEBUG::Random effects:
+2024-04-09 12:31:19 DEBUG::Fixed effects: UC_case_control
+2024-04-09 12:31:19 DEBUG::Correction method: BH
+2024-04-09 12:31:19 DEBUG::Standardize: FALSE
+2024-04-09 12:31:19 DEBUG::Cores: 1
+2024-04-09 12:31:19 INFO::Verifying options selected are valid
+2024-04-09 12:31:19 INFO::Determining format of input files
+2024-04-09 12:31:19 INFO::Input format is data samples as rows and metadata samples as rows
+2024-04-09 12:31:19 DEBUG::A total of 50 samples were found in both the data and metadata
+2024-04-09 12:31:19 DEBUG::Reordering data/metadata to use same sample ordering
+2024-04-09 12:31:19 INFO::Formula for fixed effects: expr ~  UC_case_control
+2024-04-09 12:31:19 INFO::Filter data based on min abundance and min prevalence
+2024-04-09 12:31:19 INFO::Total samples in data: 50
+2024-04-09 12:31:19 INFO::Min samples required with min abundance for a feature not to be filtered: 5.000000
+2024-04-09 12:31:19 INFO::Total filtered features: 8
+2024-04-09 12:31:19 INFO::Filtered feature names from abundance and prevalence filtering: X41f01f3e3cbf6beb908ae1ebb553208e, X494975433cf1f940b003816db0232f8b, b67b924653e2ba692fd3ea7c8f75c2ee, X51c79d7c5c2260b32f6ad5b82272898e, X92fb114641e27921122496428e2ef0dd, X3a8a7409bdc33da14a01ec3e3313b9a7, d2a7d567b64364c09cf4bea1e3f5aef5, ebc68f0a3a40711c1b0df994d93a6cac
+2024-04-09 12:31:19 INFO::Total filtered features with variance filtering: 0
+2024-04-09 12:31:19 INFO::Filtered feature names from variance filtering:
+2024-04-09 12:31:19 INFO::Running selected normalization method: TSS
+2024-04-09 12:31:19 INFO::Bypass z-score application to metadata
+2024-04-09 12:31:19 INFO::Running selected transform method: AST
+2024-04-09 12:31:19 INFO::Running selected analysis method: LM
+2024-04-09 12:31:19 INFO::Fitting model to feature number 1, X7e464b9b7f9ca86103a675a09263efec
+2024-04-09 12:31:19 INFO::Fitting model to feature number 2, bc6f21affc11d8c4a5d6454f728e4add
+2024-04-09 12:31:19 INFO::Fitting model to feature number 3, c2ba82ad21732bcd0ef11c61560cf91c
+2024-04-09 12:31:19 INFO::Fitting model to feature number 4, X250a576e3788b3f444938c7b08afb2e3
+2024-04-09 12:31:19 INFO::Fitting model to feature number 5, eedb6e6a512baecd8df273d5495ca5c0
+2024-04-09 12:31:19 INFO::Fitting model to feature number 6, ed32eeb458a2b9bdee12e2db96fcb98b
+2024-04-09 12:31:19 INFO::Fitting model to feature number 7, X645dd8b575c7e7c0952933bbe90b4bb9
+2024-04-09 12:31:19 INFO::Fitting model to feature number 8, X0f898170dbe4592000abdcde0dd2ba2e
+2024-04-09 12:31:19 INFO::Fitting model to feature number 9, b5c3abd1c966bb0457d8dfe34c35b160
+2024-04-09 12:31:19 INFO::Fitting model to feature number 10, ca39c1dfb5e738c293917a0ab7391c33
+2024-04-09 12:31:19 INFO::Fitting model to feature number 11, X7d669e880492b330a9c9c649f65c2ba6
+2024-04-09 12:31:19 INFO::Fitting model to feature number 12, X632a77028290d1ecbd9bfe2958610b8c
+2024-04-09 12:31:19 INFO::Fitting model to feature number 13, X5b239eddc0c4c102c7f721bae475cf22
+2024-04-09 12:31:19 INFO::Fitting model to feature number 14, X20f887a0f58476d52027e0798805c1d2
+2024-04-09 12:31:19 INFO::Fitting model to feature number 15, X3a4c1eb8dbc9f93fbbfbd8702754c0df
+2024-04-09 12:31:19 INFO::Fitting model to feature number 16, X969732ae717bf5a9282f4781499aadb4
+2024-04-09 12:31:19 INFO::Fitting model to feature number 17, X81b95cf5e2e0e3f7579b7dfa4b2ebed0
+2024-04-09 12:31:19 INFO::Fitting model to feature number 18, X26de4690cd2c89c490c37a8d1418d67a
+2024-04-09 12:31:19 INFO::Fitting model to feature number 19, c5bd025300b4ef0c652dd11cef56ac29
+2024-04-09 12:31:19 INFO::Fitting model to feature number 20, X95251fbafeb9956f566a3da93d145d63
+2024-04-09 12:31:19 INFO::Fitting model to feature number 21, cb3f42ad378ddeda014d895db355586b
+2024-04-09 12:31:19 INFO::Fitting model to feature number 22, X1e2270e7a0c8c2e951edc6813b58451a
+2024-04-09 12:31:19 INFO::Fitting model to feature number 23, X820d3c5095323f85949bc959fd15d1b7
+2024-04-09 12:31:19 INFO::Fitting model to feature number 24, X5431c93e93b57f0b74748eb702ea1e72
+2024-04-09 12:31:19 INFO::Fitting model to feature number 25, X7c821085a5548386a8d91fe359fa3ff3
+2024-04-09 12:31:19 INFO::Fitting model to feature number 26, X564e9f4d70915c0026898422d57b1431
+2024-04-09 12:31:19 INFO::Fitting model to feature number 27, X386a607b118090dd71bfc8b4b4081447
+2024-04-09 12:31:19 INFO::Fitting model to feature number 28, afce1dc2c06acb90ad5d3da0fffbcd02
+2024-04-09 12:31:19 INFO::Fitting model to feature number 29, X1c6bf8efe709f63c28e0225da6870395
+2024-04-09 12:31:19 INFO::Fitting model to feature number 30, f2d099ef5556f02539ded15181a3d994
+2024-04-09 12:31:19 INFO::Fitting model to feature number 31, X304a3df568087b761af6bca76a3816aa
+2024-04-09 12:31:19 INFO::Fitting model to feature number 32, X2ddd18d49a8163e0fc79e28ea6273254
+2024-04-09 12:31:19 INFO::Fitting model to feature number 33, X42604f7f8bfc866837a5370b4b667382
+2024-04-09 12:31:19 INFO::Fitting model to feature number 34, de4edf45ab75f6490e1ada65b0e0306f
+2024-04-09 12:31:19 INFO::Fitting model to feature number 35, e1a9800482df461df81429b3b8f859a1
+2024-04-09 12:31:19 INFO::Fitting model to feature number 36, c38ee4acf990375c9b9df651cf77bf7c
+2024-04-09 12:31:19 INFO::Fitting model to feature number 37, X321b7763c5946d79f50284281735d5b0
+2024-04-09 12:31:19 INFO::Fitting model to feature number 38, X01491b7ad3b35c7e644dd24ae831bee2
+2024-04-09 12:31:19 INFO::Fitting model to feature number 39, a67690654fca1914946ee270222b7247
+2024-04-09 12:31:19 INFO::Fitting model to feature number 40, X95c08da59378a0eb674c2b7dab943428
+2024-04-09 12:31:19 INFO::Fitting model to feature number 41, X6a49b0df18b1abfe220ecc00d5cbf296
+2024-04-09 12:31:19 INFO::Fitting model to feature number 42, X5c4a1032c65d0d99d6d6bee379b63a2c
+2024-04-09 12:31:19 INFO::Fitting model to feature number 43, c4228a5878f56464e576996e95eefc5e
+2024-04-09 12:31:19 INFO::Fitting model to feature number 44, f55e6f0203460ecfb665c9dbc579b714
+2024-04-09 12:31:19 INFO::Fitting model to feature number 45, b73c9d186b67a61bce0ba79c990aef39
+2024-04-09 12:31:20 INFO::Fitting model to feature number 46, X6960eba3db7d4d863d042ab497d7481a
+2024-04-09 12:31:20 INFO::Fitting model to feature number 47, X6545176af2fa076f03140433793c0d00
+2024-04-09 12:31:20 INFO::Fitting model to feature number 48, X719ab97ff4cf3c7b809b054134f4dc70
+2024-04-09 12:31:20 INFO::Fitting model to feature number 49, X3fae853851bfe19cdb50e15749f373b6
+2024-04-09 12:31:20 INFO::Fitting model to feature number 50, a99fb503372ef5103fa41e0c743bbad2
+2024-04-09 12:31:20 INFO::Counting total values for each feature
+2024-04-09 12:31:20 INFO::Writing residuals to file /Users/robynwright/Dropbox/Langille_Lab_postdoc/AtPATH_IBD/analysis_2024/differential_abundance/maaslin2_females_UC_case_control_model1/residuals.rds
+2024-04-09 12:31:20 INFO::Writing fitted values to file /Users/robynwright/Dropbox/Langille_Lab_postdoc/AtPATH_IBD/analysis_2024/differential_abundance/maaslin2_females_UC_case_control_model1/fitted.rds
+2024-04-09 12:31:20 INFO::Writing all results to file (ordered by increasing q-values): /Users/robynwright/Dropbox/Langille_Lab_postdoc/AtPATH_IBD/analysis_2024/differential_abundance/maaslin2_females_UC_case_control_model1/all_results.tsv
+2024-04-09 12:31:20 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): /Users/robynwright/Dropbox/Langille_Lab_postdoc/AtPATH_IBD/analysis_2024/differential_abundance/maaslin2_females_UC_case_control_model1/significant_results.tsv
+2024-04-09 12:31:20 INFO::Writing heatmap of significant results to file: /Users/robynwright/Dropbox/Langille_Lab_postdoc/AtPATH_IBD/analysis_2024/differential_abundance/maaslin2_females_UC_case_control_model1/heatmap.pdf
+2024-04-09 12:31:20 INFO::Writing association plots (one for each significant association) to output folder: /Users/robynwright/Dropbox/Langille_Lab_postdoc/AtPATH_IBD/analysis_2024/differential_abundance/maaslin2_females_UC_case_control_model1
